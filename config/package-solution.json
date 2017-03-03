@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-officeui-fabric-react-tasks-client-side-solution",
+    "id": "96f23675-1c3d-4003-ab0b-3c0ea5c0b2ab",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-officeui-fabric-react-tasks.sppkg"
+  }
+}

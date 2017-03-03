@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/tasks/TasksWebPart.js",
+      "manifest": "./src/webparts/tasks/TasksWebPart.manifest.json",
+      "outputPath": "./dist/tasks.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/myTasks/MyTasksWebPart.js",
+      "manifest": "./src/webparts/myTasks/MyTasksWebPart.manifest.json",
+      "outputPath": "./dist/my-tasks.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "tasksStrings": "webparts/tasks/loc/{locale}.js",
+    "myTasksStrings": "webparts/myTasks/loc/{locale}.js"
+  }
+}

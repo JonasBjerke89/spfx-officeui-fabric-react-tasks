@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "590b48d3-7d6b-441f-a5ab-3119c1f64635",
+  "alias": "TasksWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "590b48d3-7d6b-441f-a5ab-3119c1f64635",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Tasks" },
+    "description": { "default": "Tasks description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Tasks"
+    }
+  }]
+}
