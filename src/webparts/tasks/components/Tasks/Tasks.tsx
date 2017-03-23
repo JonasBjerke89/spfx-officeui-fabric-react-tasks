@@ -30,7 +30,7 @@ export default class Tasks extends React.Component<ITasksProps, ITasksState> {
 
   public getTasks()
   {
-      TaskService.getTasks().then((tasks) => {
+      TaskService.getTasks(this.props.context, this.props.filter, this.props.thisSiteOnly).then((tasks) => {
         this.setState({ tasks: tasks })
       });
   }

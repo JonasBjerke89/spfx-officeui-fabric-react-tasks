@@ -14,6 +14,7 @@
     "@types/react-addons-test-utils": "0.14.15",
     "@types/react-addons-update": "0.14.14",
     "@types/react-dom": "0.14.18",
+    "@types/sharepoint": "^2013.1.2",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
     "react": "15.4.2",
     "react-dom": "15.4.2"
